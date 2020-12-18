@@ -10,9 +10,11 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Makes public folder available on root directory
+app.use(express.static("public"));
 
 // The below points our server to a series of "route" files.
-// require("./routes/apiRoutes")(app);
+require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
 app.listen(PORT, function () {
