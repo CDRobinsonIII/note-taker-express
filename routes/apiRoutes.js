@@ -24,5 +24,16 @@ module.exports = function(app) {
     // DELETE route to save notes to db.json
     app.delete("/api/notes/:id", function (req, res) {
         const id = req.params.id;
+        console.log("Hello they hit delete");
+        console.log(id);
+
+        for (var i=0; i < notesDatabase.length; i++) {
+            console.log("This is the id in the notesDatabase: "+notesDatabase[i].id);
+            if (JSON.stringify(notesDatabase[i].id) === id) {
+                console.log("This is the id to be deleted: " + id);
+                notesDatabase.splice(id, 1);
+                console.log("Array after delete: "+notesDatabase[1].id);
+            }
+        }
     });
 }
