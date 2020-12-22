@@ -12,6 +12,7 @@ The mission of this project was to build a note taker application using Node Exp
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Screenshot of note-taker-express application in use](#screenshot-of-note-taker-express-application-in-use)
 
 
 ## Technologies Used
@@ -45,3 +46,6 @@ There are no built-in tests for the note-taker-express application. You can test
 If you have any questions about this note-taker-express application or to report any issues with the application please email me at charlesdalerobinson@gmail.com.
 Please visit my github page to review my other repositories: [CDRobinsonIII](https://github.com/CDRobinsonIII)
 
+## Screenshot of note-taker-express application in use
+
+![Here is a screenshot of the index page of the note-taker-express application.](/assets/images/screenshot-note-taker-express.jpg)
