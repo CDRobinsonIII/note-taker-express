@@ -48,4 +48,4 @@ Please visit my github page to review my other repositories: [CDRobinsonIII](htt
 
 ## Screenshot of note-taker-express application in use
 
-![Here is a screenshot of the index page of the note-taker-express application.](/assets/images/screenshot-note-taker-express.jpg)
+![Here is a screenshot of the index page of the note-taker-express application.](/public/assets/images/screenshot-note-taker-express.jpg)
